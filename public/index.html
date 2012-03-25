@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Films</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <link rel="stylesheet" href="/stylesheets/screen.css" media="screen" />
+
+    <script src="/javascripts/vendor/jquery.js"></script>
+    <script src="/javascripts/vendor/underscore.js"></script>
+    <script src="/javascripts/vendor/backbone.js"></script>
+
+    <script src="/javascripts/films/models.js"></script>
+    <script src="/javascripts/films/collections.js"></script>
+    <script src="/javascripts/films/views.js"></script>
+    <script src="/javascripts/films/routers.js"></script>
+    <script src="/javascripts/films.js"></script>
+
+    <!-- Templates -->
+
+    <script type="text/template" id="film-template">
+      <td class="name"><a href="<%= imdb %>"><img src="images/imdb.png"></a> <a href="<%= imdb %>"><%= english_name %></a></td>
+      <td class="seen"><%= seen %></td>
+      <td class="format"><%= format %></td>
+      <td class="rating"><%= rating %></td>
+    </script>
+
+  </head>
+
+  <body>
+    <div id="main">
+      <table>
+        <thead>
+          <th class="name">Name</th>
+          <th class="seen">Seen</th>
+          <th class="format">Format</th>
+          <th class="rating">Rating</th>
+        </thead>
+        <tbody id="films">
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

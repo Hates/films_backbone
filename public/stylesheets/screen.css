@@ -1,0 +1,37 @@
+body {
+  margin: 0px 0 30px 0;
+  background-color: #e0e0e0; }
+
+#main {
+  color: #333333;
+  width: 960px;
+  padding: 20px;
+  margin: 0 auto;
+  position: relative;
+  background-color: white; }
+  #main table thead th {
+    color: #666666;
+    text-align: left; }
+  #main table tbody td {
+    border-bottom: 1px solid #f5f5f5;
+    height: 45px; }
+  #main table tbody td.name {
+    font-weight: bold;
+    width: 650px; }
+    #main table tbody td.name a, #main table tbody td.name a:hover {
+      color: #333333;
+      text-decoration: none; }
+  #main table tbody td.seen, #main table tbody td.format {
+    width: 130px; }
+  #main table tbody td.rating {
+    text-align: center; }
+
+body, h1, h2, h3, p, ul, li {
+  font-family: "Helvetica Neue"; }
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 1em;
+  letter-spacing: 1px;
+  color: #777777; }
