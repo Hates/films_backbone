@@ -15,7 +15,7 @@ jQuery ->
     initialize: (options) ->
       @collection.bind 'reset', @render, @
     render: ->
-      for film in @collection.models
+      for film in @collection.models.reverse()
         $(@el).append (new FilmView model: film).render().el
       @
 

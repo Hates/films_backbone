@@ -1,4 +1,4 @@
-/* DO NOT MODIFY. This file was compiled Mon, 30 Jan 2012 18:13:13 GMT from
+/* DO NOT MODIFY. This file was compiled Sun, 25 Mar 2012 22:29:21 GMT from
  * /Volumes/Internal/Stuff/Work/Ur-ban/films_backbone/app/coffeescripts/films/views.coffee
  */
 
@@ -46,7 +46,7 @@
 
       FilmsView.prototype.render = function() {
         var film, _i, _len, _ref;
-        _ref = this.collection.models;
+        _ref = this.collection.models.reverse();
         for (_i = 0, _len = _ref.length; _i < _len; _i++) {
           film = _ref[_i];
           $(this.el).append((new FilmView({
