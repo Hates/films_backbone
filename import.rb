@@ -20,4 +20,4 @@ films << new_film
 puts JSON.pretty_generate(films)
 File.open(json_file, 'w') { |file| file.write(JSON.pretty_generate(films)) }
 
-#ruby import.rb "imdb_id" "date" "english_name" "" "Blue-Ray" "5"
+#ruby import.rb "imdb_id" "2013-00-00" "english_name" "" "Blue-Ray" "5"
