@@ -35,3 +35,4 @@ File.open(json_file, 'w') { |file| file.write(JSON.pretty_generate(films)) }
 #ruby import.rb "tt1078940" "2012-12-25" "Couples Retreat" "" "Blue-Ray" "6" && \
 #ruby import.rb "tt1343727" "2012-12-29" "Dredd" "" "Blue-Ray" "8" && \
 #ruby import.rb "tt1276104" "2012-12-30" "Looper" "" "Blue-Ray" "7"
+#ruby import.rb "tt0365737" "2013-01-11" "Syriana" "" "Blue-Ray" "6"
